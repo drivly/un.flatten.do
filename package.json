@@ -1,21 +1,22 @@
 {
   "name": "un.flatten.do",
+  "module": "worker.js",
   "version": "1.0.0",
   "description": "UnFlatten JSON Objects",
   "repository": "git@github.com:drivly/un.flatten.do.git",
   "license": "MIT",
-  "module": "worker.js",
-  "dependencies": {
-    "flat": "^5.0.2"
-  },
   "scripts": {
     "dev": "wrangler dev worker.js",
     "deploy": "wrangler publish worker.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write '**/*.{js,css,json,md}'"
   },
+  "dependencies": {
+    "flat": "^5.0.2"
+  },
   "devDependencies": {
-    "prettier": "^1.17.0",
+    "jest": "^28.1.3",
+    "prettier": "^2.7.1",
     "wrangler": "^2.0.27"
   }
 }
