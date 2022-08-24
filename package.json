@@ -1,8 +1,8 @@
 {
-  "name": "flatten.do",
+  "name": "un.flatten.do",
   "version": "1.0.0",
-  "description": "Flatten JSON Objects",
-  "repository": "git@github.com:drivly/flatten.do.git",
+  "description": "UnFlatten JSON Objects",
+  "repository": "git@github.com:drivly/un.flatten.do.git",
   "license": "MIT",
   "module": "worker.js",
   "dependencies": {
